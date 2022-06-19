@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+/* ul,li{list-style: none;} */
+a{text-decoration: none; color: inherit;}
+button{border: none; background: none; text-indent: -9999px; cursor: pointer;}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif; line-height: 1px; 
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    background-color: rgb(82, 82, 82);
+}
+html{
+    font-size: 0.625rem; overflow-x: hidden;
+}
+#wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(253, 156, 36);
+}
+
+h1{
+    font-size: 3rem; line-height: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+section{
+    width: 100%;
+}
+.repository{
+    height: 170px;
+    width: 650px;
+    margin: 30px auto;
+    margin-bottom: 20px;
+}
+.blog, .github{
+    width: 50%;
+    float: left;
+}
+.blogImg a, .githubImg a{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blogImg a{
+    background: url(../img/s_zhwltlr.png) no-repeat center/cover;
+}
+.blogImg a:hover,
+.githubImg a:hover
+{
+    transform: translateY(-7px);
+    transition: all 0.4s;
+    opacity: 0.8;
+}
+.blogText{
+    width: 160px;
+    margin-right: 25px;
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 2rem;
+    float: right;
+    color: #fff;
+}
+.githubImg a{
+    background: url(../img/github.png) no-repeat center/cover;
+}
+.githubText{
+    width: 160px;
+    margin-right: 25px;
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 2rem;
+    float: right;
+    color: #fff;
+    word-break: keep-all;
+    letter-spacing: -1px;
+}
+.comment{
+    clear: both;
+    line-height: 55px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(253, 156, 36);
+}
+section h2{
+    line-height: 50px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+.line{
+    /* height: 2px; */
+    border: 1px dashed rgb(253, 156, 36);
+    width: 100%;
+    /* background-color: rgb(253, 156, 36); */
+    margin-bottom: 20px;
+}
+.project_community, .project_shop, .project_CU, .project_calculator{
+    background-color: #fff;
+    height: 240px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.comImg{
+    width: 280px;
+    height: 200px;
+    background: url(../img/comimg.PNG) no-repeat top/ cover;
+    float: left;
+    margin: 20px 0 0 20px;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 10px;
+}
+.content{
+    width: 470px;
+    float: right;
+    line-height: 25px;
+    display: block;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.contentTitle{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: rgb(253, 156, 36);
+    font-weight: 800;
+}
+.contentText{
+    clear: both;
+    width: 450px;
+}
+.content li{
+    font-size: 1.6rem;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.content li a:hover{
+    color: rgb(253, 156, 36);
+}
+.content li:first-child{
+    font-weight: 800;
+}
+
+
+
+
+
+.CUImg{
+    width: 280px;
+    height: 200px;
+    background: url(../img/cuimg.png) no-repeat left/ cover;
+    float: left;
+    margin: 20px 0 0 20px;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
+.shopImg{
+    width: 280px;
+    height: 200px;
+    background: url(../img/shop.PNG) no-repeat center/ cover;
+    float: left;
+    margin: 20px 0 0 20px;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
+.project_community ul li:nth-child(3){
+    /* letter-spacing: -px; */
+    font-size: 1.5rem;
+    word-break: break-all;
+}
+.calculatorImg{
+    width: 280px;
+    height: 200px;
+    background: url(../img/calimg.PNG) no-repeat center/cover;
+    float: left;
+    margin: 20px 0 0 20px;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
